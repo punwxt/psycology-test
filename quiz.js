@@ -43,5 +43,6 @@ function showResult() {
   box.innerHTML = `
 
     <h1>You're a "${maxAnimal.toUpperCase()}"</h1>
+    <img src="./img/${maxAnimal}.png" width="100%"">
   `;
 }
