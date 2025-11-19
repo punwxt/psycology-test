@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz Result</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="quiz.js"></script>
+</head>
+<body onload="showResult()">
+
+<div class="container">
+  <img src="/img/background.png" alt="background" class="bg-image">
+  <h1>RESULT!</h1>
+  <div id="result-box">
+    กำลังโหลดผลลัพธ์...
+  </div>
+  
+  <hr>
+  
+  <div class="choice" onclick="localStorage.removeItem('animals'); window.location.href = 'q1.html';">
+    Do the test again
+  </div>
+
+</div>
+
+</body>
+</html>
