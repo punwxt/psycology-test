@@ -1,5 +1,6 @@
 /* ล้าง margin */
 body {
+    font-family: "Itim", cursive;
     margin: 0;
     padding: 0;
     overflow: auto;

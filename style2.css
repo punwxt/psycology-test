@@ -20,9 +20,14 @@
     margin: 130px auto 0;
     text-align: center;
     color: white;
-    text-shadow: 0 0 10px #000;
 }
 
+body {
+    font-family: "Itim", cursive;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
 
 .story-container p {
     font-size: 35px;
