@@ -66,6 +66,7 @@ body {
 
 /* ปุ่ม */
 #startBtn {
+    font-family: "Itim", cursive;
     padding: 15px 40px;
     font-size: 30px;
     border-radius: 10px;
